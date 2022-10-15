@@ -1,0 +1,56 @@
+.button {
+    background-color: #045648; 
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: #b1b1b1;
+    color: rgb(14, 3, 3);
+  }
+
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(30px, auto);
+    grid-auto-columns: minmax(200px, auto);
+  }
+
+  .title {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .image {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    border-radius: 12px;
+    border: solid #555;
+  }
+
+  .instructions {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    font-size: 18px;
+  }
+
+  .ingredients {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 18px;
+  }
+
+  .youtube {
+    grid-column: 5;
+    grid-row: 3;
+    font-size: 18px;
+  }
