@@ -54,3 +54,9 @@
     grid-row: 3;
     font-size: 18px;
   }
+
+  .int{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+  }

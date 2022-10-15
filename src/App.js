@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div>
-      <h4>Are you hungry? You don't know what to eat?</h4>
+      <div className="int">Are you hungry? You don't know what to eat?</div>
       <section id="divContainer"></section>
       <button className="button" id='button' onClick={callApi}>
         Get a recipe
